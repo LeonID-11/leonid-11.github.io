@@ -49,9 +49,6 @@ $(document).ready(function() {
 		return false;
 	});
 
-    $(".sect-third .text-third").equalHeights();
-    $(".sect-four .wrap-four").equalHeights();
-
 
 	//Chrome Smooth Scroll
 	try {
