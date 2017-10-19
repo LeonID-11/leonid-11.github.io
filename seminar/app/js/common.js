@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	$(".sect-third .text-third").equalHeights();
+	$(".sect-four .wrap-four").equalHeights();
 
 	$(".toggle-menu").click(function(){
 			$(this).toggleClass("on");
@@ -30,9 +32,7 @@ $(document).ready(function() {
             }
         });
 
-   
-
-	//E-mail Ajax Send
+    //E-mail Ajax Send
 	$("form").submit(function() { 
 		var th = $(this);
 		$.ajax({
@@ -49,7 +49,6 @@ $(document).ready(function() {
 		return false;
 	});
 
-
 	//Chrome Smooth Scroll
 	try {
 		$.browserSelector();
@@ -59,6 +58,5 @@ $(document).ready(function() {
 	} catch(err) {
 
 	};
-
 
 });
